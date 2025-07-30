@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body{
+    /* Размер по высоте */
+    min-height: 100vh;
+    /* Задний фон */
+    background: url(bg.png);
+    /* Размер изображения */
+    background-size: cover;
+    /* Расположение изображения */
+    background-position: center;
+}
+
+
+.question{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    /* Размер шрифта  */
+    font-size: 36px;
+    /* Толщина */
+    font-weight: 600;
+    /* Высота линии */
+    line-height: 45px;
+    /* Отступ сверху */
+    margin-top: 100px;
+}
+
+hr{
+    width: 200px;
+    margin: 50px auto;
+    border: 1.5px solid black;
+}
+
+
+.answer{
+    width: 700px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    font-size: 24px;
+    box-shadow: 2px 2px 6px #00000037;
+    text-align: left;
+    margin: 5px;
+}
+
+.answer span{
+    /* Задний фон */
+    background: #FFECDB;
+    /* Цвет текста */
+    color: #FF475D;
+    /* Ширина */
+    width: 50px;
+    /* Высота */
+    height: 50px;
+    /* Скругление */
+    border-radius: 50%;
+    /* Блочный элемент в строку */
+    display: inline-block;
+    /* Выравнивание по вертикали */
+    vertical-align: middle;
+    /* Выравнивание текста по центру */
+    text-align: center;
+    /* Высота линии */
+    line-height: 50px;
+    /* Отступ */
+    margin: 20px;
+}
+
+
+.answer:hover{
+    background: #FE909D;
+    color: white;
+}
+
+.answer:hover span{
+    background: #FF475D;
+    color: #FFECDB;
+}
+
+.next-step{
+    background: #FFB0BA;
+    color: #FF475D;
+    width: 150px;
+    height: 75px;
+    border: none;
+    border-radius: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px;
+}
