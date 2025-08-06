@@ -23,19 +23,19 @@ body {
 
 
 .card-1 {
-    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(11.png);
+    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(../11.png);
 }
 
 .card-2 {
-    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(22.png);
+    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(../22.png);
 }
 
 .card-3 {
-    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(33.png);
+    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(../33.png);
 }
 
 .card-4 {
-    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(44.png);
+    background: linear-gradient (rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.7)), url(../44.png);
 }
 
 .card {
@@ -68,3 +68,4 @@ h4{
     opacity: normal;
 
 }
+
